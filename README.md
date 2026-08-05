@@ -1,7 +1,6 @@
 # rabota
 # Мой проект
 #!/bin/bash
-
 sudo apt install libxcb-xinerama0
 PACKAGE_1="bzsenagent"
 if eval "sudo dpkg -s $PACKAGE_1>/dev/null 2>&1"
